@@ -17,5 +17,12 @@ def multiplicar():
     print ("O produto dos numeros é:", multiplicar)
 multiplicar()
 
+def divisao():
+    primeiro_numero = int(input ("Digite primeiro numero: "))
+    segundo_numero = int(input ("Digite segundo numero: "))
+    divisao = primeiro_numero/segundo_numero
+    print ("O quociente dos numeros é:", divisao)
+divisao()
+
 
     
