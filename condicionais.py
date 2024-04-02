@@ -15,4 +15,17 @@ def verificar_par_impar():
 
 verificar_par_impar()
 
+def verificar_aprovacao():
+    nota_aluno = float(input("Digite a nota do aluno: "))
+    if(nota_aluno >= 7):
+        print("Aprovado")
+    elif (nota_aluno <= 6):
+        print("Reprovado")
+        
+    else:
+        print("Em recuperação")
+
+verificar_aprovacao()
+
+
 
